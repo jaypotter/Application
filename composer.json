@@ -14,7 +14,7 @@
         "psr-4": {"Potter\\": "Potter/"}
     },
     "require": {
-        "php": ">=8.1.0",
+        "php": ">=8.0",
         "potter/dbal": "dev-main"
     }
 }
