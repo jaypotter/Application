@@ -1,2 +1,2 @@
-# Template
-Roll Your Own PHP 8 Open Source Project
+# Application
+Roll Your Own Open Source PHP 8 Application 
