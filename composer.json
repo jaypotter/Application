@@ -1,0 +1,19 @@
+{
+    "name": "potter/template",
+    "description": " Roll Your Own PHP 8 Open Source Project",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "jay@jaypotter.ca"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Potter\\": "Potter/"}
+    },
+    "require": {
+        "php": ">=8.1.0"
+    }
+}
