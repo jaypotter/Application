@@ -11,6 +11,6 @@ final class DatabaseApplication extends AbstractDatabaseApplication
     public function __construct(DatabaseInterface $database, string $name = self::DEFAULT_NAME)
     {
         $this->setDatabase($database);
-        parent::_construct($name);
+        $this->setName($name);
     }
 }
