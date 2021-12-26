@@ -1,6 +1,6 @@
 {
-    "name": "potter/template",
-    "description": " Roll Your Own PHP 8 Open Source Project",
+    "name": "potter/application",
+    "description": "Roll Your Own Open Source PHP 8 Application",
     "minimum-stability": "dev",
     "license": "MIT",
     "type": "library",
