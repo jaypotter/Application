@@ -2,7 +2,9 @@
 
 namespace Potter\Application\Database;
 
-abstract class AbstractDatabaseApplication implements ApplicationDatabaseInterface
+use Potter\Application\AbstractApplication;
+
+abstract class AbstractDatabaseApplication extends AbstractApplication implements ApplicationDatabaseInterface
 {
     
 }
