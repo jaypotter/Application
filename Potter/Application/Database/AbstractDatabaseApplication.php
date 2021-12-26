@@ -7,7 +7,7 @@ use Potter\{
     DBAL\Database\DatabaseInterface    
 };
 
-abstract class AbstractDatabaseApplication extends AbstractApplication implements ApplicationDatabaseInterface
+abstract class AbstractDatabaseApplication extends AbstractApplication implements DatabaseApplicationInterface
 {
     abstract public function getDatabase(): DatabaseInterface;
 
