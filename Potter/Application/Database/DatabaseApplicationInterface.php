@@ -8,5 +8,5 @@ interface DatabaseApplicationInterface
 {
     public function getDatabase(): DatabaseInterface;
 
-    public function setDatabase(DatabaseInterface $database): void;    
+    public function setDatabase(DatabaseInterface $database): void;
 }
