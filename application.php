@@ -7,7 +7,11 @@ use Potter\Application\Application;
 $app = new Application(
     name: 'SampleApplication'
 );
-echo $app->getName() . PHP_EOL;
-$app->setName('NewApplication');
-echo $app->getName() . PHP_EOL;
 
+echo $app->getName() . PHP_EOL;
+// SampleApplication
+
+$app->setName('NewApplication');
+
+echo $app->getName() . PHP_EOL;
+// NewApplication
