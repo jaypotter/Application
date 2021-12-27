@@ -2,9 +2,12 @@
 
 namespace Potter\Application\Database;
 
-use Potter\DBAL\Database\DatabaseInterface;
+use Potter\{
+    Application\ApplicationInterface,
+    DBAL\Database\DatabaseInterface
+};
 
-interface DatabaseApplicationInterface
+interface DatabaseApplicationInterface extends ApplicationInterface
 {
     public function getDatabase(): DatabaseInterface;
 
