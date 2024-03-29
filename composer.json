@@ -5,7 +5,8 @@
     "require": {
         "php": "^8.3",
         "potter/application-interface": "dev-main",
-        "potter/application-trait": "dev-main"
+        "potter/application-trait": "dev-main",
+        "potter/container-aware": "dev-main"
     },
     "license": "MIT",
     "autoload": {
