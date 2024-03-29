@@ -7,6 +7,7 @@
         "potter/application-interface": "dev-main",
         "potter/application-trait": "dev-main",
         "potter/aware": "dev-main",
+        "potter/cloneable": "dev-main",
         "potter/container-aware": "dev-main"
     },
     "license": "MIT",
