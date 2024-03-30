@@ -17,5 +17,6 @@ final class Application extends AbstractApplication implements AwareInterface, C
     public function __construct(ContainerInterface $container)
     {
         $this->setContainer($container);
+        $this->startSession();
     }
 }
