@@ -9,6 +9,7 @@
         "potter/aware": "dev-main",
         "potter/cloneable": "dev-main",
         "potter/container": "dev-main",
+        "potter/output-buffer-aware": "dev-main",
         "potter/session-aware": "dev-main"
     },
     "suggest": {
