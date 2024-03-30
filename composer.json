@@ -8,7 +8,8 @@
         "potter/application-trait": "dev-main",
         "potter/aware": "dev-main",
         "potter/cloneable": "dev-main",
-        "potter/container-aware": "dev-main"
+        "potter/container": "dev-main",
+        "potter/session-aware": "dev-main"
     },
     "license": "MIT",
     "autoload": {
