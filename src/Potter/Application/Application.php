@@ -6,7 +6,8 @@ namespace Potter\Application;
 
 use \Potter\Aware\{AwareInterface, AwareTrait};
 use \Potter\Cloneable\{CloneableInterface, CloneableTrait};
-use \Potter\Container\ContainerInterface, \Potter\Container\Aware\{ContainerAwareInterface, ContainerAwareTrait};
+use \Potter\Container\ContainerInterface;
+use \Potter\Container\Aware\{ContainerAwareInterface, ContainerAwareTrait};
 use \Potter\Buffer\Output\Aware\{OutputBufferAwareInterface, OutputBufferAwareTrait};
 use \Potter\Session\Aware\{SessionAwareInterface, SessionAwareTrait};
 
