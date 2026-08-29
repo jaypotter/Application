@@ -1,0 +1,21 @@
+{
+    "name": "potter/application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\": "src/Potter/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "homepage": "https://github.com/jaypotter/Application",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.5.9"
+    }
+}
