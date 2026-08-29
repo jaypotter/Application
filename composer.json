@@ -16,6 +16,9 @@
     "homepage": "https://github.com/jaypotter/Application",
     "minimum-stability": "stable",
     "require": {
-        "php": "^8.5.9"
+        "php": "^8.5.9",
+        "psr/container": "^2.0.2",
+        "symfony/deprecation-contracts": "^3.7.1",
+        "symfony/service-contracts": "^3.7.1"
     }
 }
