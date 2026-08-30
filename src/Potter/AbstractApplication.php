@@ -22,7 +22,7 @@ abstract class AbstractApplication
             version: $version, 
             container: $this->container = new Container
         );
-        self::addEnvironment($this, $container);
+        self::addEnvironment($this);
         $this->addCommands([new \Potter\Command\Start]);
     }
     
