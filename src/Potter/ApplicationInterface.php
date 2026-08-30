@@ -6,4 +6,6 @@ namespace Potter;
 
 interface ApplicationInterface 
     extends \Symfony\Contracts\Service\ResetInterface
-{ }
+{
+    public function container(): \Potter\Container;       
+}

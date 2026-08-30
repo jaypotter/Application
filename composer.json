@@ -17,6 +17,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.5.9",
+        "potter/container": "^0.0.1",
         "symfony/console": "^8.1.5",
         "symfony/service-contracts": "^3.7.1"
     }
